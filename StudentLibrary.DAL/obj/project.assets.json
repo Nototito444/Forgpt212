@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "StudentLibrary.BLL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/StudentLibrary.BLL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/StudentLibrary.BLL.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "StudentLibrary.BLL/1.0.0": {
-      "type": "project",
-      "path": "../StudentLibrary.BLL/StudentLibrary.BLL.csproj",
-      "msbuildProject": "../StudentLibrary.BLL/StudentLibrary.BLL.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "StudentLibrary.BLL >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "/Users/svetlanaena/.nuget/packages/": {}
@@ -50,11 +31,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.BLL/StudentLibrary.BLL.csproj": {
-              "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.BLL/StudentLibrary.BLL.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

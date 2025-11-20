@@ -2,3 +2,4 @@
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.AssemblyInfoInputs.cache
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.AssemblyInfo.cs
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.csproj.CoreCompileInputs.cache
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.sourcelink.json
