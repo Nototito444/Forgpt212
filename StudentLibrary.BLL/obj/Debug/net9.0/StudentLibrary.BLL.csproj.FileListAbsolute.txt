@@ -1,0 +1,4 @@
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.BLL/obj/Debug/net9.0/StudentLibrary.BLL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.BLL/obj/Debug/net9.0/StudentLibrary.BLL.AssemblyInfoInputs.cache
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.BLL/obj/Debug/net9.0/StudentLibrary.BLL.AssemblyInfo.cs
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.BLL/obj/Debug/net9.0/StudentLibrary.BLL.csproj.CoreCompileInputs.cache
