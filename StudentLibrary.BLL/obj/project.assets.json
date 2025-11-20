@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "StudentLibrary.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/StudentLibrary.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentLibrary.Core.dll": {}
+        }
+      },
       "StudentLibrary.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "StudentLibrary.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/StudentLibrary.DAL.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "StudentLibrary.Core/1.0.0": {
+      "type": "project",
+      "path": "../StudentLibrary.Core/StudentLibrary.Core.csproj",
+      "msbuildProject": "../StudentLibrary.Core/StudentLibrary.Core.csproj"
+    },
     "StudentLibrary.DAL/1.0.0": {
       "type": "project",
       "path": "../StudentLibrary.DAL/StudentLibrary.DAL.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "StudentLibrary.Core >= 1.0.0",
       "StudentLibrary.DAL >= 1.0.0"
     ]
   },
@@ -51,6 +70,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj": {
+              "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj"
+            },
             "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/StudentLibrary.DAL.csproj": {
               "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/StudentLibrary.DAL.csproj"
             }

@@ -1,5 +1,16 @@
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/bin/Debug/net9.0/StudentLibrary.DAL.deps.json
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/bin/Debug/net9.0/StudentLibrary.DAL.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/bin/Debug/net9.0/StudentLibrary.DAL.pdb
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/bin/Debug/net9.0/StudentLibrary.Core.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/bin/Debug/net9.0/StudentLibrary.Core.pdb
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.csproj.AssemblyReference.cache
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.GeneratedMSBuildEditorConfig.editorconfig
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.AssemblyInfoInputs.cache
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.AssemblyInfo.cs
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.csproj.CoreCompileInputs.cache
 /Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.sourcelink.json
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentL.BCFD53B7.Up2Date
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/refint/StudentLibrary.DAL.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/StudentLibrary.DAL.pdb
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/obj/Debug/net9.0/ref/StudentLibrary.DAL.dll

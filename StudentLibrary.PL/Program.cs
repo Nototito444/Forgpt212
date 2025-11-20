@@ -4,7 +4,7 @@ using StudentLibrary.BLL.Services;
 using StudentLibrary.DAL.Repositories;
 using StudentLibrary.PL.Helpers;
 using StudentLibrary.BLL.Interfaces;
-using StudentLibrary.BLL.Entities;
+using StudentLibrary.Core.Entities;
 
 namespace StudentLibrary.PL
 {

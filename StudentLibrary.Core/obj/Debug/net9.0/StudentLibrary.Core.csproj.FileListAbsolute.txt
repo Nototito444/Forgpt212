@@ -1,0 +1,12 @@
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/bin/Debug/net9.0/StudentLibrary.Core.deps.json
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/bin/Debug/net9.0/StudentLibrary.Core.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/bin/Debug/net9.0/StudentLibrary.Core.pdb
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.AssemblyInfoInputs.cache
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.AssemblyInfo.cs
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.csproj.CoreCompileInputs.cache
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.sourcelink.json
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/refint/StudentLibrary.Core.dll
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/StudentLibrary.Core.pdb
+/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/Debug/net9.0/ref/StudentLibrary.Core.dll

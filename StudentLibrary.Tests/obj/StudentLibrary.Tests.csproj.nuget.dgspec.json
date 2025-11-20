@@ -26,10 +26,72 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj": {
+                "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj"
+              },
               "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/StudentLibrary.DAL.csproj": {
                 "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.DAL/StudentLibrary.DAL.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj",
+        "projectName": "StudentLibrary.Core",
+        "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj",
+        "packagesPath": "/Users/svetlanaena/.nuget/packages/",
+        "outputPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/svetlanaena/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -88,7 +150,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj": {
+                "projectPath": "/Users/svetlanaena/Documents/KypcoBaYena/StudentLibrary.Core/StudentLibrary.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

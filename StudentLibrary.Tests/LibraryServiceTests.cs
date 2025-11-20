@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using FluentAssertions;
 using NUnit.Framework;
-using StudentLibrary.BLL.Entities;
+using StudentLibrary.Core.Entities;
 using StudentLibrary.BLL.Services;
 using StudentLibrary.DAL.Repositories;
 using StudentLibrary.BLL.Exceptions;
@@ -16,9 +16,9 @@ namespace StudentLibrary.Tests
         private string _tmpDir = Path.Combine(Path.GetTempPath(), "StudentLibraryTests");
         private string _usersFile => Path.Combine(_tmpDir, "users.json");
         private string _docsFile => Path.Combine(_tmpDir, "documents.json");
-        private UserRepository _userRepo!;
-        private DocumentRepository _docRepo!;
-        private LibraryService _service!;
+        private UserRepository _userRepo;
+        private DocumentRepository _docRepo;
+        private LibraryService _service;
 
         [SetUp]
         public void Setup()

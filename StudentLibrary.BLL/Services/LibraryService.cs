@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using StudentLibrary.BLL.Entities;
+using StudentLibrary.Core.Entities;
 using StudentLibrary.BLL.Exceptions;
-using StudentLibrary.BLL.Interfaces;
+using StudentLibrary.Core.Interfaces;
 
 
 namespace StudentLibrary.BLL.Services
 {
-    public class LibraryService : ILibraryService
+    public class LibraryService : Interfaces.ILibraryService
     {
         private readonly IUserRepository _userRepo;
         private readonly IDocumentRepository _docRepo;

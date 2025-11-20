@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "StudentLibrary.PL/1.0.0": {
+        "dependencies": {
+          "StudentLibrary.BLL": "1.0.0"
+        },
+        "runtime": {
+          "StudentLibrary.PL.dll": {}
+        }
+      },
+      "StudentLibrary.BLL/1.0.0": {
+        "dependencies": {
+          "StudentLibrary.Core": "1.0.0",
+          "StudentLibrary.DAL": "1.0.0"
+        },
+        "runtime": {
+          "StudentLibrary.BLL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StudentLibrary.Core/1.0.0": {
+        "runtime": {
+          "StudentLibrary.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "StudentLibrary.DAL/1.0.0": {
+        "dependencies": {
+          "StudentLibrary.Core": "1.0.0"
+        },
+        "runtime": {
+          "StudentLibrary.DAL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudentLibrary.PL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StudentLibrary.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StudentLibrary.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StudentLibrary.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using StudentLibrary.BLL.Entities;
+using StudentLibrary.Core.Entities;
 using StudentLibrary.DAL.Repositories;
 
 namespace StudentLibrary.BLL.Interfaces
