@@ -34,10 +34,8 @@ namespace StudentLibrary.BLL.Services
                  
                 return user;
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка збереження користувача", ex);
-            }
+            catch (NotFoundException) {throw; }
+            catch (Exception ex) {throw new DataAccessException("Помилка збереження користувача", ex); }
         }
 
         public void RemoveUser(Guid userId)
@@ -46,14 +44,11 @@ namespace StudentLibrary.BLL.Services
             {
                 var user = _userRepo.GetById(userId);
                 if (user == null) throw new NotFoundException("Користувача не знайдено");
-                if (user.BorrowedCount > 0) throw new InvalidOperationException("Користувач має невищенi книги, видалення заборонено");
+                if (user.BorrowedCount > 0) throw new LimitExceededException("Користувач має невищенi книги, видалення заборонено");
                 _userRepo.Remove(userId);
             }
             catch (NotFoundException) { throw; }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка при видаленні користувача", ex);
-            }
+            catch (Exception ex) {throw new DataAccessException("Помилка при видаленні користувача", ex); }
         }
 
         public void UpdateUser(User user)
@@ -64,10 +59,8 @@ namespace StudentLibrary.BLL.Services
             {
                 _userRepo.Update(user);
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка при оновленні користувача", ex);
-            }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) {throw new DataAccessException("Помилка при оновленні користувача", ex); }
         }
 
         public User GetUser(Guid userId)
@@ -91,10 +84,8 @@ namespace StudentLibrary.BLL.Services
                 
                 return doc;
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка збереження документа", ex);
-            }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) { throw new DataAccessException("Помилка збереження документа", ex); }
         }
 
         public void RemoveDocument(Guid documentId)
@@ -106,10 +97,8 @@ namespace StudentLibrary.BLL.Services
             {
                 _docRepo.Remove(documentId);
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка при видаленні документа", ex);
-            }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) { throw new DataAccessException("Помилка при видаленні документа", ex); }
         }
 
         public void UpdateDocument(Document document)
@@ -120,10 +109,8 @@ namespace StudentLibrary.BLL.Services
             {
                 _docRepo.Update(document);
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка при оновленні документа", ex);
-            }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) { throw new DataAccessException("Помилка при оновленні документа", ex); }
         }
 
         public Document GetDocument(Guid documentId)
@@ -160,10 +147,8 @@ namespace StudentLibrary.BLL.Services
                 _userRepo.Update(user);
                 
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка при видачі документа", ex);
-            }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) { throw new DataAccessException("Помилка при видачі документа", ex); }
         }
 
         public void ReturnDocument(Guid documentId, Guid userId)
@@ -188,10 +173,8 @@ namespace StudentLibrary.BLL.Services
                 _userRepo.Update(user);
                
             }
-            catch (Exception ex)
-            {
-                throw new DataAccessException("Помилка при поверненні документа", ex);
-            }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) { throw new DataAccessException("Помилка при поверненні документа", ex); }
         }
 
         public IEnumerable<Document> GetDocumentsBorrowedByUser(Guid userId)
