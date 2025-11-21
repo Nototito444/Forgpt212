@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "Id": "3b36eb6e-bc56-44df-8455-b35714c82f55",
+    "FirstName": "1",
+    "LastName": "2",
+    "AcademicGroup": "3",
+    "BorrowedDocumentIds": [],
+    "BorrowedCount": 0
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "Id": "b4e3bc4d-6e8a-4134-903e-fb689a34e394",
+    "Title": "1",
+    "Author": "2",
+    "Year": 3,
+    "BorrowedByUserId": null,
+    "IsAvailable": true
+  }
+]
