@@ -12,12 +12,10 @@ namespace StudentLibrary.PL
     {
         static void Main(string[] args)
         {
-            // Настройки путей к данным (в папке проекта при запуске)
             var baseDataDir = "Data";
             var usersFile = System.IO.Path.Combine(baseDataDir, "users.json");
             var docsFile = System.IO.Path.Combine(baseDataDir, "documents.json");
 
-            // Создаём репозитории и сервис
             var userRepo = new UserRepository(usersFile);
             var docRepo = new DocumentRepository(docsFile);
             ILibraryService service = new LibraryService(userRepo, docRepo);

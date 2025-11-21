@@ -12,5 +12,6 @@ namespace StudentLibrary.Core.Interfaces
         Document? GetById(Guid id);
         void Remove(Guid id);
         void Update(Document item);
+        void SaveList();
     }
 }

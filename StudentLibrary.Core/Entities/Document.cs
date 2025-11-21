@@ -9,7 +9,6 @@ namespace StudentLibrary.Core.Entities
         public string Author { get; set; } = string.Empty;
         public int Year { get; set; }
 
-        // Если документ выдан - хранится Id читателя, иначе null
         public Guid? BorrowedByUserId { get; set; } = null;
 
         public Document()

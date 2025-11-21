@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace StudentLibrary.DAL.Repositories
 {
-    // Базовый репозиторий: хранение коллекции T в JSON-файле
     public abstract class FileRepositoryBase<T> where T : class
     {
         private readonly string _filePath;

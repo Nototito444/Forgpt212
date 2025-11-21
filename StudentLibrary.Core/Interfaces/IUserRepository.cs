@@ -1,4 +1,3 @@
-// BLL/Interfaces/IUserRepository.cs
 using System;
 using System.Collections.Generic;
 using StudentLibrary.Core.Entities;
@@ -12,5 +11,6 @@ namespace StudentLibrary.Core.Interfaces
         User? GetById(Guid id);
         void Remove(Guid id);
         void Update(User item);
+        void SaveList();
     }
 }

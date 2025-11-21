@@ -31,6 +31,7 @@ namespace StudentLibrary.BLL.Services
             try
             {
                 _userRepo.Add(user);
+                 
                 return user;
             }
             catch (Exception ex)
@@ -86,6 +87,8 @@ namespace StudentLibrary.BLL.Services
             try
             {
                 _docRepo.Add(doc);
+                
+                
                 return doc;
             }
             catch (Exception ex)
@@ -155,6 +158,7 @@ namespace StudentLibrary.BLL.Services
             {
                 _docRepo.Update(doc);
                 _userRepo.Update(user);
+                
             }
             catch (Exception ex)
             {
@@ -182,6 +186,7 @@ namespace StudentLibrary.BLL.Services
             {
                 _docRepo.Update(doc);
                 _userRepo.Update(user);
+               
             }
             catch (Exception ex)
             {

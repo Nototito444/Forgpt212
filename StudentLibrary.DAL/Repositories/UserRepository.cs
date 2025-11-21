@@ -47,5 +47,11 @@ namespace StudentLibrary.DAL.Repositories
                 SaveList(list);
             }
         }
+    
+public void SaveList() 
+    {
+        SaveList(LoadList()); 
+    }
     }
 }
+

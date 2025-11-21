@@ -55,13 +55,11 @@ namespace StudentLibrary.Tests
             var u = _service.AddUser("A", "B", "G1");
             var docs = Enumerable.Range(1, 5).Select(i => _service.AddDocument($"T{i}", $"A{i}", 2000 + i)).ToList();
 
-            // give up to max (4)
             for (int i = 0; i < 4; i++)
             {
                 _service.IssueDocument(docs[i].Id, u.Id);
             }
 
-            // 5th should throw LimitExceededException
             Action act = () => _service.IssueDocument(docs[4].Id, u.Id);
             act.Should().Throw<LimitExceededException>();
         }

@@ -2,7 +2,6 @@ using System;
 
 namespace StudentLibrary.Core.Entities
 {
-    // Опционально: если захотите фиксировать даты выдачи/возврата
     public class LendingRecord
     {
         public Guid DocumentId { get; set; }
