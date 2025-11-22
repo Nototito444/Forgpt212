@@ -31,11 +31,12 @@ namespace StudentLibrary.BLL.Services
             try
             {
                 _userRepo.Add(user);
-                 
-                return user;
+                var savedUser = _userRepo.GetById(user.Id);
+                if (savedUser == null) throw new DataAccessException("Користувача не збережено");
+                return savedUser;
             }
-            catch (NotFoundException) {throw; }
-            catch (Exception ex) {throw new DataAccessException("Помилка збереження користувача", ex); }
+            catch (NotFoundException) { throw; }
+            catch (Exception ex) { throw new DataAccessException("Помилка збереження користувача", ex); }
         }
 
         public void RemoveUser(Guid userId)
@@ -80,9 +81,9 @@ namespace StudentLibrary.BLL.Services
             try
             {
                 _docRepo.Add(doc);
-                
-                
-                return doc;
+                var savedDoc = _docRepo.GetById(doc.Id);
+                if (savedDoc == null) throw new DataAccessException("Документ не збережено");
+                return savedDoc;
             }
             catch (NotFoundException) { throw; }
             catch (Exception ex) { throw new DataAccessException("Помилка збереження документа", ex); }

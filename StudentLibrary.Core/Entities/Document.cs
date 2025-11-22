@@ -1,13 +1,14 @@
 using System;
+using System.Text.Json.Serialization;
 
 namespace StudentLibrary.Core.Entities
 {
     public class Document
     {
-        public Guid Id { get; private set; }
-        public string Title { get; set; } = string.Empty;
-        public string Author { get; set; } = string.Empty;
-        public int Year { get; set; }
+        [JsonInclude] public Guid Id { get; private set; }
+        [JsonInclude] public string Title { get; set; } = string.Empty;
+        [JsonInclude] public string Author { get; set; } = string.Empty;
+        [JsonInclude] public int Year { get; set; }
 
         public Guid? BorrowedByUserId { get; set; } = null;
 

@@ -1,10 +1,12 @@
 [
   {
     "Id": "3b36eb6e-bc56-44df-8455-b35714c82f55",
-    "FirstName": "1",
-    "LastName": "2",
-    "AcademicGroup": "3",
-    "BorrowedDocumentIds": [],
-    "BorrowedCount": 0
+    "FirstName": "\u0432\u0444\u0432\u0444",
+    "LastName": "\u0432\u0444\u0432\u044B",
+    "AcademicGroup": "\u0432\u044B",
+    "BorrowedDocumentIds": [
+      "d22ec220-3165-4850-813e-8e6f7acf9f87"
+    ],
+    "BorrowedCount": 1
   }
 ]

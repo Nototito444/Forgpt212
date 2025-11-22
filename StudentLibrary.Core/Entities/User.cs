@@ -1,17 +1,18 @@
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace StudentLibrary.Core.Entities
 {
     public class User
     {
-        public Guid Id { get; private set; }
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string AcademicGroup { get; set; } = string.Empty;
+        [JsonInclude] public Guid Id {get; private set; }
+        [JsonInclude] public string FirstName { get; set; } = string.Empty;
+        [JsonInclude] public string LastName  { get; set; } = string.Empty;
+        [JsonInclude] public string AcademicGroup { get; set; } = string.Empty;
+        [JsonInclude] public List<Guid> BorrowedDocumentIds { get; private set; } = new List<Guid>();
 
-        private readonly List<Guid> _borrowedDocumentIds = new List<Guid>();
-        public IReadOnlyList<Guid> BorrowedDocumentIds => _borrowedDocumentIds.AsReadOnly();
+        public int BorrowedCount => BorrowedDocumentIds.Count;
 
         public User()
         {
@@ -27,15 +28,13 @@ namespace StudentLibrary.Core.Entities
 
         public void AddBorrowedDocument(Guid documentId)
         {
-            if (!_borrowedDocumentIds.Contains(documentId))
-                _borrowedDocumentIds.Add(documentId);
+            if (!BorrowedDocumentIds.Contains(documentId))
+                BorrowedDocumentIds.Add(documentId);
         }
-
         public bool RemoveBorrowedDocument(Guid documentId)
         {
-            return _borrowedDocumentIds.Remove(documentId);
+            return BorrowedDocumentIds.Remove(documentId);
         }
 
-        public int BorrowedCount => _borrowedDocumentIds.Count;
     }
 }

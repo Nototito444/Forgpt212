@@ -6,5 +6,13 @@
     "Year": 3,
     "BorrowedByUserId": null,
     "IsAvailable": true
+  },
+  {
+    "Id": "d22ec220-3165-4850-813e-8e6f7acf9f87",
+    "Title": "document",
+    "Author": "docu",
+    "Year": 2008,
+    "BorrowedByUserId": "3b36eb6e-bc56-44df-8455-b35714c82f55",
+    "IsAvailable": false
   }
 ]
