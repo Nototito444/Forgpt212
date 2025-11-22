@@ -18,7 +18,7 @@ namespace StudentLibrary.BLL.Services
         {
             _userRepo = userRepo;
             _docRepo = docRepo;
-            _maxBorrowLimit = maxBorrowLimit; // n < 5 => максимум 4
+            _maxBorrowLimit = maxBorrowLimit; 
         }
 
         // Users
@@ -138,7 +138,6 @@ namespace StudentLibrary.BLL.Services
             if (user.BorrowedCount >= _maxBorrowLimit)
                 throw new LimitExceededException($"Перевищено ліміт ({_maxBorrowLimit}) книг для одного абонементу");
 
-            // обновляем модель
             doc.BorrowedByUserId = user.Id;
             user.AddBorrowedDocument(doc.Id);
 
